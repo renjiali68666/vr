@@ -10,9 +10,17 @@ const viewer = ref<HTMLElement>();
 
 onMounted(() => {
   new Viewer({
-    plugins: [GyroscopePlugin],
+    plugins: [
+      [
+        GyroscopePlugin,
+        {
+          moveMode: 'fast'
+        }
+      ]
+    ],
     container: viewer.value as HTMLElement,
-    panorama: '外围.jpg'
+    panorama: '外围.jpg',
+    navbar: []
   });
 });
 </script>
