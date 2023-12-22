@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
@@ -14,6 +14,13 @@
   },
   "dependencies": {
     "@photo-sphere-viewer/core": "^5.5.1",
+    "@photo-sphere-viewer/cubemap-adapter": "^5.5.1",
+    "@photo-sphere-viewer/cubemap-tiles-adapter": "^5.5.1",
+    "@photo-sphere-viewer/cubemap-video-adapter": "^5.5.1",
+    "@photo-sphere-viewer/equirectangular-tiles-adapter": "^5.5.1",
+    "@photo-sphere-viewer/equirectangular-video-adapter": "^5.5.1",
+    "@photo-sphere-viewer/gyroscope-plugin": "^5.5.1",
+    "@photo-sphere-viewer/little-planet-adapter": "^5.5.1",
     "vue": "^3.3.11"
   },
   "devDependencies": {
