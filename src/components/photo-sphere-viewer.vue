@@ -20,7 +20,7 @@ onMounted(() => {
     ],
     container: viewer.value as HTMLElement,
     panorama: '外围.jpg',
-    navbar: []
+    navbar: ['gyroscope']
   });
 });
 </script>
