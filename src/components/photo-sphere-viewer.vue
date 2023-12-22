@@ -12,8 +12,7 @@ onMounted(() => {
   new Viewer({
     plugins: [GyroscopePlugin],
     container: viewer.value as HTMLElement,
-    panorama: '外围.jpg',
-    navbar: false
+    panorama: '外围.jpg'
   });
 });
 </script>
