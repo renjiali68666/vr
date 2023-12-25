@@ -9,12 +9,13 @@ import { onMounted, ref } from 'vue';
 const viewer = ref<HTMLElement>();
 
 onMounted(() => {
-  new Viewer({
+  const viewerRef = new Viewer({
     plugins: [
       [
         GyroscopePlugin,
         {
-          moveMode: 'fast'
+          moveMode: 'fast',
+          state: {}
         }
       ]
     ],
@@ -22,11 +23,13 @@ onMounted(() => {
     panorama: '外围.jpg',
     navbar: ['gyroscope']
   });
+  console.log(viewerRef.navbar.getButton('gyroscope'));
+  viewerRef.navbar.getButton('gyroscope').toggle();
 });
 </script>
 <style lang="less" scoped>
 .photo-sphere-viewer {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
 }
 </style>
