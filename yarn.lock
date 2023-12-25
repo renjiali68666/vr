@@ -494,12 +494,27 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@photo-sphere-viewer/compass-plugin@^5.5.1":
+  version "5.5.1"
+  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/compass-plugin/-/compass-plugin-5.5.1.tgz#a2cb464d5ebae3ded849915ddaad00a3086761c1"
+  integrity sha512-tI5wKcVWwvebH2loI1C9B5CwR++Oz7yzODpGRhkjWADw2LLqjap0rJxiheYl6AiL+tHCWl4pIJ8lss6frZ1vkA==
+
 "@photo-sphere-viewer/core@^5.5.1":
   version "5.5.1"
   resolved "https://registry.npmmirror.com/@photo-sphere-viewer/core/-/core-5.5.1.tgz#f711c977369154bd03e83d2a2d78786a54ade79a"
   integrity sha512-dddxySM0retvsO7cDa0lJ0oviGpSYZV9vJLqv126YoYnZZhL9fFOjkmJP+GSMLU6AU8pZIVuiVZ1TSWJaZcGrg==
   dependencies:
     three "^0.159.0"
+
+"@photo-sphere-viewer/gallery-plugin@^5.5.1":
+  version "5.5.1"
+  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/gallery-plugin/-/gallery-plugin-5.5.1.tgz#a386268492470c01cc213c94ce3622eb1c82ed38"
+  integrity sha512-J+Futd4VSFmAU1kw7a9zBZi1GUZT5lGTf/mHmGdOZSX0+/hLY0txCJhD909aoFZYqC4JRczRWAgW5aIpdvfV+A==
+
+"@photo-sphere-viewer/virtual-tour-plugin@^5.5.1":
+  version "5.5.1"
+  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/virtual-tour-plugin/-/virtual-tour-plugin-5.5.1.tgz#83047a027e0490e0798d324fdad5b1abf2f798fd"
+  integrity sha512-1qnp8XBCb26WlVnR/8kalqIeGgC3+ioBOZGxPJ2pu88QUBfb6UHYub4lLdslvTVd0eaMrV4KamTtweoxLRfTjg==
 
 "@pkgr/utils@^2.4.2":
   version "2.4.2"
