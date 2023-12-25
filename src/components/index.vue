@@ -27,7 +27,7 @@ nextTick(() => {
       ]
     ]
   });
-  const virtualTour = viewer.getPlugin(VirtualTourPlugin);
+  const virtualTour: any = viewer.getPlugin(VirtualTourPlugin);
   virtualTour.setNodes(
     [
       {
