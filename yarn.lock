@@ -501,41 +501,6 @@
   dependencies:
     three "^0.159.0"
 
-"@photo-sphere-viewer/cubemap-adapter@^5.5.1":
-  version "5.5.1"
-  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/cubemap-adapter/-/cubemap-adapter-5.5.1.tgz#fb52bf0781c03aa8958bd8f7ab761e339fef1bd5"
-  integrity sha512-5K8UwrSlUR6EVFOoCxbZeLJXSJ40fgtTQ6Kj2ltZ++y9r9I6vkvtqTUCRnZs9yaYezcbCXbuppebLKSWhodZtA==
-
-"@photo-sphere-viewer/cubemap-tiles-adapter@^5.5.1":
-  version "5.5.1"
-  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/cubemap-tiles-adapter/-/cubemap-tiles-adapter-5.5.1.tgz#1e96c641f67c55b468c59dbbe5fe6762cc10caec"
-  integrity sha512-NEt4GYGo8ZlnV1rCe4KWtZLPbcxQHlEjqnOUn1Laf1aGcxo64WWHoFaeDkAHR9aky+VJS6tJXbl4HFCtaqdp1g==
-
-"@photo-sphere-viewer/cubemap-video-adapter@^5.5.1":
-  version "5.5.1"
-  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/cubemap-video-adapter/-/cubemap-video-adapter-5.5.1.tgz#633919a30dbc4c970ed761e504827e544c25ba15"
-  integrity sha512-YnASpozLY+8Wjud8f0+3XG8zGfTtdFSFjWja8pPpTl23gVukpBlKElrEargNrOznGW1TXvGoNXE34r4/OLJjeg==
-
-"@photo-sphere-viewer/equirectangular-tiles-adapter@^5.5.1":
-  version "5.5.1"
-  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/equirectangular-tiles-adapter/-/equirectangular-tiles-adapter-5.5.1.tgz#e4abfc5077113085fd6d1dc3639e2cbe3a112b1a"
-  integrity sha512-Uf88wdMHlXTCl8zLnwdRPS8HgaofK6EJyARXew/smJ4mR/0VUt9RWRE/8K9LrLhh01OYDEK7eo6sNXOhWsddLw==
-
-"@photo-sphere-viewer/equirectangular-video-adapter@^5.5.1":
-  version "5.5.1"
-  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/equirectangular-video-adapter/-/equirectangular-video-adapter-5.5.1.tgz#ddc4ce2ad91acf5f95cb7b0fed39e2387337470f"
-  integrity sha512-Obh3n9K00d8NiRWPaOQLNI31iW32k8wrc9ANVUNxVSIzDt8Hkd/qBBV7VZoQtuELiFK+EPz+61h1uisckf50lQ==
-
-"@photo-sphere-viewer/gyroscope-plugin@^5.5.1":
-  version "5.5.1"
-  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/gyroscope-plugin/-/gyroscope-plugin-5.5.1.tgz#5d9ef1ad8ade5a8aa259273d4dbe8b68b7feb11c"
-  integrity sha512-hgOzHHZyiM00/+5n3i386lI/Hf5dg4HCLpgxxeHP2eusieUI9JQIv4XNXWhzTq+OTdv1bwEj3wWXH65b+JuT/Q==
-
-"@photo-sphere-viewer/little-planet-adapter@^5.5.1":
-  version "5.5.1"
-  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/little-planet-adapter/-/little-planet-adapter-5.5.1.tgz#fea9a2379e30c386cd15799171571f419df0d800"
-  integrity sha512-TozalqlWm3pEttxVT/Nr+bq9zphjy7Notkdo5rDlF71DFsgLNtsP07zPV0nIYHLNtP9zijgdiRgy2ELTn1c0ZQ==
-
 "@pkgr/utils@^2.4.2":
   version "2.4.2"
   resolved "https://registry.npmmirror.com/@pkgr/utils/-/utils-2.4.2.tgz#9e638bbe9a6a6f165580dc943f138fd3309a2cbc"
@@ -734,11 +699,6 @@
   version "1.2.0"
   resolved "https://registry.npmmirror.com/@ungap/structured-clone/-/structured-clone-1.2.0.tgz#756641adb587851b5ccb3e095daf27ae581c8406"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
-
-"@vitejs/plugin-basic-ssl@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.npmmirror.com/@vitejs/plugin-basic-ssl/-/plugin-basic-ssl-1.0.2.tgz#bac6553842b215f17b052d27c82e2b2ef29236dc"
-  integrity sha512-DKHKVtpI+eA5fvObVgQ3QtTGU70CcCnedalzqmGSR050AzKZMdUzgC8KmlOneHWH8dF2hJ3wkC9+8FDVAaDRCw==
 
 "@vitejs/plugin-vue-jsx@^3.1.0":
   version "3.1.0"
@@ -1258,12 +1218,12 @@ eslint-config-prettier@^8.8.0:
   integrity sha512-SM8AMJdeQqRYT9O9zguiruQZaN7+z+E4eAP9oiLNGKMtomwaB1E9dcgUD6ZAn/eQAb52USbvezbiljfZUhbJcg==
 
 eslint-plugin-prettier@^5.0.0:
-  version "5.1.1"
-  resolved "https://registry.npmmirror.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.1.1.tgz#ab7d9823788b557ff7ccdd50a5849d7760cb8bef"
-  integrity sha512-WQpV3mSmIobb77s4qiCZu3dBrZZ0rj8ckSfBtRrgNK9Wnh2s3eiaxNTWloz1LJ1WtvqZES/PAI7PLvsrGt/CEA==
+  version "5.1.2"
+  resolved "https://registry.npmmirror.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.1.2.tgz#584c94d4bf31329b2d4cbeb10fd600d17d6de742"
+  integrity sha512-dhlpWc9vOwohcWmClFcA+HjlvUpuyynYs0Rf+L/P6/0iQE6vlHW9l5bkfzN62/Stm9fbq8ku46qzde76T1xlSg==
   dependencies:
     prettier-linter-helpers "^1.0.0"
-    synckit "^0.8.5"
+    synckit "^0.8.6"
 
 eslint-plugin-vue@^9.17.0:
   version "9.19.2"
@@ -2357,7 +2317,7 @@ svg-tags@^1.0.0:
   resolved "https://registry.npmmirror.com/svg-tags/-/svg-tags-1.0.0.tgz#58f71cee3bd519b59d4b2a843b6c7de64ac04764"
   integrity sha512-ovssysQTa+luh7A5Weu3Rta6FJlFBBbInjOh722LIt6klpU2/HtdUbszju/G4devcvk8PGt7FCLv5wftu3THUA==
 
-synckit@^0.8.5:
+synckit@^0.8.6:
   version "0.8.6"
   resolved "https://registry.npmmirror.com/synckit/-/synckit-0.8.6.tgz#b69b7fbce3917c2673cbdc0d87fb324db4a5b409"
   integrity sha512-laHF2savN6sMeHCjLRkheIU4wo3Zg9Ln5YOjOo7sZ5dVQW8yF5pPE5SIw1dsPhq3TRp1jisKRCdPhfs/1WMqDA==
@@ -2492,9 +2452,9 @@ vue-eslint-parser@^9.3.1:
     semver "^7.3.6"
 
 vue-template-compiler@^2.7.14:
-  version "2.7.15"
-  resolved "https://registry.npmmirror.com/vue-template-compiler/-/vue-template-compiler-2.7.15.tgz#ec88ba8ceafe0f17a528b89c57e01e02da92b0de"
-  integrity sha512-yQxjxMptBL7UAog00O8sANud99C6wJF+7kgbcwqkvA38vCGF7HWE66w0ZFnS/kX5gSoJr/PQ4/oS3Ne2pW37Og==
+  version "2.7.16"
+  resolved "https://registry.npmmirror.com/vue-template-compiler/-/vue-template-compiler-2.7.16.tgz#c81b2d47753264c77ac03b9966a46637482bb03b"
+  integrity sha512-AYbUWAJHLGGQM7+cNTELw+KsOG9nl2CnSv467WobS5Cv9uk3wFcnr1Etsz2sEIHEZvw1U+o9mRlEO6QbZvUPGQ==
   dependencies:
     de-indent "^1.0.2"
     he "^1.2.0"
