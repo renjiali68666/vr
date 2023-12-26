@@ -15,5 +15,17 @@ export const items = [
     name: '厨房',
     panorama: '/home/厨房.jpg',
     thumbnail: '/home/厨房.jpg'
+  },
+  {
+    id: 'pano-3',
+    name: '洗手间',
+    panorama: '/home/洗手间.jpg',
+    thumbnail: '/home/洗手间.jpg'
+  },
+  {
+    id: 'pano-4',
+    name: '卧室',
+    panorama: '/home/卧室.jpg',
+    thumbnail: '/home/卧室.jpg'
   }
 ];

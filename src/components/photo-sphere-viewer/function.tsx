@@ -5,6 +5,7 @@ import { watch } from 'vue';
 // 初始化
 export const initViewer = () => {
   viewer.value = new Viewer({
+    defaultZoomLvl: 0,
     container: document.querySelector('#viewer') as HTMLElement,
     navbar: false,
     plugins: [AutorotatePlugin],
