@@ -494,6 +494,33 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@photo-sphere-viewer/autorotate-plugin@^5.5.1":
+  version "5.5.1"
+  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/autorotate-plugin/-/autorotate-plugin-5.5.1.tgz#42593a9c75dcc7db29cd4848d6118df657a7ae90"
+  integrity sha512-ZU20ZYaa5VPNg3J+wh9GwS/yZxD9r+XPCE90FiekYnDyJ2wE3ckQ5m7h+BEvH4Hpb3rX0NVzyZl4iA9kubuxhQ==
+
+"@photo-sphere-viewer/core@^5.5.1":
+  version "5.5.1"
+  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/core/-/core-5.5.1.tgz#f711c977369154bd03e83d2a2d78786a54ade79a"
+  integrity sha512-dddxySM0retvsO7cDa0lJ0oviGpSYZV9vJLqv126YoYnZZhL9fFOjkmJP+GSMLU6AU8pZIVuiVZ1TSWJaZcGrg==
+  dependencies:
+    three "^0.159.0"
+
+"@photo-sphere-viewer/gallery-plugin@^5.5.1":
+  version "5.5.1"
+  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/gallery-plugin/-/gallery-plugin-5.5.1.tgz#a386268492470c01cc213c94ce3622eb1c82ed38"
+  integrity sha512-J+Futd4VSFmAU1kw7a9zBZi1GUZT5lGTf/mHmGdOZSX0+/hLY0txCJhD909aoFZYqC4JRczRWAgW5aIpdvfV+A==
+
+"@photo-sphere-viewer/map-plugin@^5.5.1":
+  version "5.5.1"
+  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/map-plugin/-/map-plugin-5.5.1.tgz#61640c5747b9afd2fb6f8bfa3e57adc2191cd568"
+  integrity sha512-Wbaco0/RvLOeq6u4FqzuEIsOY/gV2kzOTUnrYSVoGiP6opNfDT62Bd4F+MpUq+FjazI6uoXcfrbuz6SrZi7Nmg==
+
+"@photo-sphere-viewer/virtual-tour-plugin@^5.5.1":
+  version "5.5.1"
+  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/virtual-tour-plugin/-/virtual-tour-plugin-5.5.1.tgz#83047a027e0490e0798d324fdad5b1abf2f798fd"
+  integrity sha512-1qnp8XBCb26WlVnR/8kalqIeGgC3+ioBOZGxPJ2pu88QUBfb6UHYub4lLdslvTVd0eaMrV4KamTtweoxLRfTjg==
+
 "@pkgr/utils@^2.4.2":
   version "2.4.2"
   resolved "https://registry.npmmirror.com/@pkgr/utils/-/utils-2.4.2.tgz#9e638bbe9a6a6f165580dc943f138fd3309a2cbc"
@@ -2327,6 +2354,11 @@ text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmmirror.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==
+
+three@^0.159.0:
+  version "0.159.0"
+  resolved "https://registry.npmmirror.com/three/-/three-0.159.0.tgz#6576b1210805b14f0765bac41fd0e4ec18e43b2e"
+  integrity sha512-eCmhlLGbBgucuo4VEA9IO3Qpc7dh8Bd4VKzr7WfW4+8hMcIfoAVi1ev0pJYN9PTTsCslbcKgBwr2wNZ1EvLInA==
 
 titleize@^3.0.0:
   version "3.0.0"

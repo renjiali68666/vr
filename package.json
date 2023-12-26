@@ -13,6 +13,11 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@photo-sphere-viewer/autorotate-plugin": "^5.5.1",
+    "@photo-sphere-viewer/core": "^5.5.1",
+    "@photo-sphere-viewer/gallery-plugin": "^5.5.1",
+    "@photo-sphere-viewer/map-plugin": "^5.5.1",
+    "@photo-sphere-viewer/virtual-tour-plugin": "^5.5.1",
     "vue": "^3.3.11"
   },
   "devDependencies": {
