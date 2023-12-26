@@ -501,6 +501,16 @@
   dependencies:
     three "^0.159.0"
 
+"@photo-sphere-viewer/markers-plugin@^5.5.1":
+  version "5.5.1"
+  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/markers-plugin/-/markers-plugin-5.5.1.tgz#bd2d7179db22ade34b485e00161e054d92a4043e"
+  integrity sha512-PnhmBplFFlT6CX4wz0qleGAHWOeZb+YmUCpOk/+zstUxf8Opf+XmXTZdk3M3bu/NmCe6DhkbyRl6f8aXDMQhhA==
+
+"@photo-sphere-viewer/virtual-tour-plugin@^5.5.1":
+  version "5.5.1"
+  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/virtual-tour-plugin/-/virtual-tour-plugin-5.5.1.tgz#83047a027e0490e0798d324fdad5b1abf2f798fd"
+  integrity sha512-1qnp8XBCb26WlVnR/8kalqIeGgC3+ioBOZGxPJ2pu88QUBfb6UHYub4lLdslvTVd0eaMrV4KamTtweoxLRfTjg==
+
 "@pkgr/utils@^2.4.2":
   version "2.4.2"
   resolved "https://registry.npmmirror.com/@pkgr/utils/-/utils-2.4.2.tgz#9e638bbe9a6a6f165580dc943f138fd3309a2cbc"
