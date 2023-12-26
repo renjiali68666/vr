@@ -1,22 +1,18 @@
 <template>
   <div id="viewer" class="photo-sphere-viewer"></div>
-  .
+  <bottom-image></bottom-image>
 </template>
 
 <script setup lang="ts">
 import { nextTick } from 'vue';
-import { initViewer, setAutorotatePlugin, setGalleryPlugin } from './function';
-
+import { initViewer, setAutorotatePlugin } from './function';
+import BottomImage from '@/components/bottom-image/index.vue';
 nextTick(async () => {
   initViewer();
   setAutorotatePlugin();
-  setGalleryPlugin();
 });
 </script>
 
 <style lang="less" scoped>
-.photo-sphere-viewer {
-  width: 100%;
-  height: 100%;
-}
+@import './index.less';
 </style>

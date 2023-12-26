@@ -506,11 +506,6 @@
   dependencies:
     three "^0.159.0"
 
-"@photo-sphere-viewer/gallery-plugin@^5.5.1":
-  version "5.5.1"
-  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/gallery-plugin/-/gallery-plugin-5.5.1.tgz#a386268492470c01cc213c94ce3622eb1c82ed38"
-  integrity sha512-J+Futd4VSFmAU1kw7a9zBZi1GUZT5lGTf/mHmGdOZSX0+/hLY0txCJhD909aoFZYqC4JRczRWAgW5aIpdvfV+A==
-
 "@photo-sphere-viewer/map-plugin@^5.5.1":
   version "5.5.1"
   resolved "https://registry.npmmirror.com/@photo-sphere-viewer/map-plugin/-/map-plugin-5.5.1.tgz#61640c5747b9afd2fb6f8bfa3e57adc2191cd568"
