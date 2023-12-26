@@ -1,6 +1,8 @@
 <template>
-  <div class="photo-sphere-viewer"></div>
+  <photo-sphere-viewer></photo-sphere-viewer>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import PhotoSphereViewer from '@/components/photo-sphere-viewer/index.vue';
+</script>
 <style lang="less" scoped></style>
