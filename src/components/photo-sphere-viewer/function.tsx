@@ -1,6 +1,7 @@
 import { Viewer } from '@photo-sphere-viewer/core';
 import { AutorotatePlugin } from '@photo-sphere-viewer/autorotate-plugin';
 import { flag, items, viewer } from './const';
+import { watch } from 'vue';
 // 初始化
 export const initViewer = () => {
   viewer.value = new Viewer({
@@ -20,3 +21,9 @@ export const setAutorotatePlugin = () => {
     autostartOnIdle: true
   });
 };
+watch(
+  () => flag.value,
+  () => {
+    viewer.value?.setPanorama(items.find((item) => item.id === flag.value)?.panorama);
+  }
+);
