@@ -7,6 +7,7 @@ export const initViewer = () => {
   viewer.value = new Viewer({
     container: document.querySelector('#viewer') as HTMLElement,
     defaultZoomLvl: 0,
+    navbar: false,
     plugins: [[VirtualTourPlugin, { positionMode: 'manual', renderMode: '3d' }], MarkersPlugin]
   });
   setVirtualTourPlugin();
