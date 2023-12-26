@@ -506,15 +506,10 @@
   dependencies:
     three "^0.159.0"
 
-"@photo-sphere-viewer/map-plugin@^5.5.1":
+"@photo-sphere-viewer/markers-plugin@^5.5.1":
   version "5.5.1"
-  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/map-plugin/-/map-plugin-5.5.1.tgz#61640c5747b9afd2fb6f8bfa3e57adc2191cd568"
-  integrity sha512-Wbaco0/RvLOeq6u4FqzuEIsOY/gV2kzOTUnrYSVoGiP6opNfDT62Bd4F+MpUq+FjazI6uoXcfrbuz6SrZi7Nmg==
-
-"@photo-sphere-viewer/virtual-tour-plugin@^5.5.1":
-  version "5.5.1"
-  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/virtual-tour-plugin/-/virtual-tour-plugin-5.5.1.tgz#83047a027e0490e0798d324fdad5b1abf2f798fd"
-  integrity sha512-1qnp8XBCb26WlVnR/8kalqIeGgC3+ioBOZGxPJ2pu88QUBfb6UHYub4lLdslvTVd0eaMrV4KamTtweoxLRfTjg==
+  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/markers-plugin/-/markers-plugin-5.5.1.tgz#bd2d7179db22ade34b485e00161e054d92a4043e"
+  integrity sha512-PnhmBplFFlT6CX4wz0qleGAHWOeZb+YmUCpOk/+zstUxf8Opf+XmXTZdk3M3bu/NmCe6DhkbyRl6f8aXDMQhhA==
 
 "@pkgr/utils@^2.4.2":
   version "2.4.2"

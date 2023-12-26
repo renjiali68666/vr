@@ -6,11 +6,12 @@
 <script setup lang="ts">
 import { nextTick } from 'vue';
 import { flag, items } from './const';
-import { initViewer, setAutorotatePlugin } from './function';
+import { initViewer, setAutorotatePlugin, setMarkersPlugin } from './function';
 import BottomImage from '@/components/bottom-image/index.vue';
 nextTick(async () => {
   initViewer();
   setAutorotatePlugin();
+  setMarkersPlugin();
 });
 </script>
 
