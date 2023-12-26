@@ -52,14 +52,12 @@ export const setVirtualTourPlugin = () => {
         {
           nodeId: '2',
           name: '厨房',
-          pitch: '0deg',
-          yaw: '150deg'
+          position: { yaw: '150deg', pitch: '0deg' }
         },
         {
           nodeId: '3',
           name: '卫生间',
-          pitch: '0deg',
-          yaw: '90deg'
+          position: { yaw: '86deg', pitch: '0deg' }
         }
       ]
     },
@@ -71,8 +69,7 @@ export const setVirtualTourPlugin = () => {
         {
           nodeId: '1',
           name: '客厅',
-          pitch: '0deg',
-          yaw: '-90deg'
+          position: { yaw: '-90deg', pitch: '0deg' }
         }
       ]
     },
@@ -84,8 +81,7 @@ export const setVirtualTourPlugin = () => {
         {
           nodeId: '1',
           name: '客厅',
-          pitch: '0deg',
-          yaw: '120deg'
+          position: { yaw: '120deg', pitch: '0deg' }
         }
       ]
     }
