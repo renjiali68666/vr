@@ -1,13 +1,13 @@
 import { Viewer } from '@photo-sphere-viewer/core';
 import { AutorotatePlugin } from '@photo-sphere-viewer/autorotate-plugin';
-import { viewer } from './const';
+import { flag, items, viewer } from './const';
 // 初始化
 export const initViewer = () => {
   viewer.value = new Viewer({
     container: document.querySelector('#viewer') as HTMLElement,
-    panorama: '/public/home/客厅.jpg',
     navbar: false,
-    plugins: [AutorotatePlugin]
+    plugins: [AutorotatePlugin],
+    panorama: items.find((item) => item.id === flag.value)?.panorama
   });
 };
 
