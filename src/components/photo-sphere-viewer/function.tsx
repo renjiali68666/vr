@@ -58,6 +58,11 @@ export const setVirtualTourPlugin = () => {
           nodeId: '3',
           name: '卫生间',
           position: { yaw: '86deg', pitch: '0deg' }
+        },
+        {
+          nodeId: '4',
+          name: '卧室',
+          position: { yaw: '-155deg', pitch: '0deg' }
         }
       ]
     },
@@ -82,6 +87,18 @@ export const setVirtualTourPlugin = () => {
           nodeId: '1',
           name: '客厅',
           position: { yaw: '120deg', pitch: '0deg' }
+        }
+      ]
+    },
+    {
+      id: '4',
+      name: '卧室',
+      panorama: '/卧室.jpg',
+      links: [
+        {
+          nodeId: '1',
+          name: '客厅',
+          position: { yaw: '105deg', pitch: '0deg' }
         }
       ]
     }
