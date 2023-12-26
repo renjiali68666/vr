@@ -1,9 +1,17 @@
 <template>
-  <photo-sphere-viewer></photo-sphere-viewer>
+  <RouterView></RouterView>
 </template>
-
-<script setup lang="ts">
-import PhotoSphereViewer from './components/photo-sphere-viewer/index.vue';
-</script>
-
-<style></style>
+<style lang="less">
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+#app {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+</style>
