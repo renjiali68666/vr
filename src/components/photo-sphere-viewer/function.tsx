@@ -21,6 +21,7 @@ export const setAutorotatePlugin = () => {
     autostartOnIdle: true
   });
 };
+
 watch(
   () => flag.value,
   () => {
