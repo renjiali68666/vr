@@ -31,6 +31,13 @@ export const setGalleryPlugin = () => {
       name: '客厅',
       panorama: '/public/home/客厅.jpg',
       thumbnail: '/public/home/客厅.jpg'
+    },
+    {
+      id: 'pano-2',
+      name: '厨房',
+      panorama: '/public/home/厨房.jpg',
+      thumbnail: '/public/home/厨房.jpg'
     }
   ]);
+  galleryPlugin.show();
 };
