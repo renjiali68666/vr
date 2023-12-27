@@ -12,6 +12,7 @@ export const initViewer = () => {
     plugins: [[VirtualTourPlugin, { positionMode: 'manual', renderMode: '3d' }], MarkersPlugin, AutorotatePlugin]
   });
   setVirtualTourPlugin();
+  addEventListenerMarkersPlugin();
 };
 
 // 设置地图
@@ -26,4 +27,14 @@ export const setNode = (nodeId: string) => {
   const virtualTourPlugin: VirtualTourPlugin = viewer.value!.getPlugin(VirtualTourPlugin); //获取组件
   virtualTourPlugin.setCurrentNode(nodeId);
   selectId.value = nodeId;
+};
+
+export const addEventListenerMarkersPlugin = () => {
+  const markersPlugin: MarkersPlugin = viewer.value!.getPlugin(MarkersPlugin); //获取组件
+  markersPlugin.addEventListener('select-marker', ({ marker }) => {
+    if (marker.config.className === 'text-bg-b') {
+      return;
+    }
+    console.log(marker);
+  });
 };
