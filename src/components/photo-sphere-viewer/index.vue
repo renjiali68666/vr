@@ -38,15 +38,20 @@ nextTick(() => {
   height: 108px;
   overflow: hidden;
   overflow-x: auto;
-  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
   .item {
+    -webkit-tap-highlight-color: transparent; /* 针对 iOS Safari */
+    text-emphasis-color: transparent; /* 通用方法 */
+    outline: none; /* 移除点击时的外边框 */
     position: relative;
     flex-shrink: 0;
     width: 92px;
     height: 92px;
-    border: solid 1px #fff;
+    border: solid 1px transparent;
     border-radius: 10px;
-    margin: 0 8px;
+    margin: 0 5px;
     z-index: 99999 !important;
     cursor: pointer;
     overflow: hidden;
