@@ -34,7 +34,10 @@ nextTick(() => {
   background: none rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 108px;
+  overflow: hidden;
+  overflow-x: auto;
   .item {
+    flex-shrink: 0;
     width: 92px;
     height: 92px;
     border: double 1px #fff;
