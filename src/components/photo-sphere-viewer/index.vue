@@ -40,6 +40,8 @@ nextTick(() => {
   overflow-x: auto;
   &::-webkit-scrollbar {
     width: 0;
+    height: 0;
+    display: none;
   }
   .item {
     -webkit-tap-highlight-color: transparent; /* 针对 iOS Safari */
