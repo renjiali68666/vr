@@ -22,6 +22,13 @@ export const nodes = [
         html: '沙发',
         scale: [0.5, 1.5],
         className: 'text-bg-b'
+      },
+      {
+        id: '3',
+        position: { yaw: '90deg', pitch: '-10deg' },
+        imageLayer: '/top.png',
+        scale: [0.5, 1.5],
+        size: { width: 128, height: 128 }
       }
     ] as MarkerConfig[],
     links: [

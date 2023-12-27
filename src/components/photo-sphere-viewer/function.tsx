@@ -35,6 +35,7 @@ export const addEventListenerMarkersPlugin = () => {
     if (marker.config.className === 'text-bg-b') {
       return;
     }
-    console.log(marker);
+    console.log(marker.id);
+    setNode(marker.id);
   });
 };
