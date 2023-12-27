@@ -18,7 +18,7 @@ export const nodes = [
       },
       {
         id: 'shafa',
-        position: { yaw: '-50deg', pitch: '-8deg' },
+        position: { yaw: '-52deg', pitch: '-8deg' },
         html: '沙发',
         scale: [0.5, 1.5],
         className: 'text-bg-b'
