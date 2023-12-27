@@ -88,4 +88,12 @@ nextTick(() => {
     }
   }
 }
+::v-deep(.text-bg-b) {
+  border-radius: 8px;
+  color: #ffffffcc;
+  padding: 10px 15px;
+  background: none rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-size: 21px;
+}
 </style>

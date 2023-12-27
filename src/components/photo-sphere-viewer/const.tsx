@@ -14,26 +14,14 @@ export const nodes = [
         position: { yaw: '3deg', pitch: '3deg' },
         html: '电视机',
         scale: [0.5, 1.5],
-        style: {
-          maxWidth: '100px',
-          color: 'white',
-          fontSize: '20px',
-          fontFamily: 'Helvetica, sans-serif',
-          textAlign: 'center'
-        }
+        className: 'text-bg-b'
       },
       {
         id: 'shafa',
         position: { yaw: '-50deg', pitch: '-8deg' },
         html: '沙发',
         scale: [0.5, 1.5],
-        style: {
-          maxWidth: '100px',
-          color: 'white',
-          fontSize: '20px',
-          fontFamily: 'Helvetica, sans-serif',
-          textAlign: 'center'
-        }
+        className: 'text-bg-b'
       }
     ] as MarkerConfig[],
     links: [
