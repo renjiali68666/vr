@@ -2,6 +2,7 @@ import { ref } from 'vue';
 import type { Viewer } from '@photo-sphere-viewer/core';
 import type { MarkerConfig } from '@photo-sphere-viewer/markers-plugin';
 export const viewer = ref<Viewer>();
+export const selectId = ref('');
 export const nodes = [
   {
     id: '1',
