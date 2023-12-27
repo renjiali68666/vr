@@ -494,6 +494,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@photo-sphere-viewer/autorotate-plugin@^5.5.1":
+  version "5.5.1"
+  resolved "https://registry.npmmirror.com/@photo-sphere-viewer/autorotate-plugin/-/autorotate-plugin-5.5.1.tgz#42593a9c75dcc7db29cd4848d6118df657a7ae90"
+  integrity sha512-ZU20ZYaa5VPNg3J+wh9GwS/yZxD9r+XPCE90FiekYnDyJ2wE3ckQ5m7h+BEvH4Hpb3rX0NVzyZl4iA9kubuxhQ==
+
 "@photo-sphere-viewer/core@^5.5.1":
   version "5.5.1"
   resolved "https://registry.npmmirror.com/@photo-sphere-viewer/core/-/core-5.5.1.tgz#f711c977369154bd03e83d2a2d78786a54ade79a"

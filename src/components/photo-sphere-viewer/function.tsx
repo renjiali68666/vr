@@ -1,6 +1,7 @@
 import { Viewer } from '@photo-sphere-viewer/core';
 import { VirtualTourPlugin } from '@photo-sphere-viewer/virtual-tour-plugin';
 import { MarkersPlugin } from '@photo-sphere-viewer/markers-plugin';
+import { AutorotatePlugin } from '@photo-sphere-viewer/autorotate-plugin';
 import { nodes, selectId, viewer } from './const';
 
 export const initViewer = () => {
@@ -8,7 +9,7 @@ export const initViewer = () => {
     container: document.querySelector('#viewer') as HTMLElement,
     defaultZoomLvl: 0,
     navbar: false,
-    plugins: [[VirtualTourPlugin, { positionMode: 'manual', renderMode: '3d' }], MarkersPlugin]
+    plugins: [[VirtualTourPlugin, { positionMode: 'manual', renderMode: '3d' }], MarkersPlugin, AutorotatePlugin]
   });
   setVirtualTourPlugin();
 };
