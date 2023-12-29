@@ -1,5 +1,5 @@
 import { ref } from 'vue';
-import type { Viewer } from '@photo-sphere-viewer/core';
+import type { Size, Viewer } from '@photo-sphere-viewer/core';
 import type { MarkerConfig } from '@photo-sphere-viewer/markers-plugin';
 import type { VirtualTourNode } from '@photo-sphere-viewer/virtual-tour-plugin';
 export const viewer = ref<Viewer>();
@@ -29,19 +29,26 @@ export const nodes = [
       {
         nodeId: '2',
         name: '厨房',
-        position: { yaw: '150deg', pitch: '0deg' }
+        position: { yaw: '150deg', pitch: '0deg' },
+        markerStyle: {
+          size: { width: 36, height: 36 }
+        }
       },
       {
         nodeId: '3',
         name: '卫生间',
         position: { yaw: '86deg', pitch: '0deg' },
-        arrowStyle: {}
+        markerStyle: {
+          size: { width: 36, height: 36 }
+        }
       },
       {
         nodeId: '4',
         name: '卧室',
         position: { yaw: '-155deg', pitch: '0deg' },
-        arrowStyle: {}
+        markerStyle: {
+          size: { width: 36, height: 36 }
+        }
       }
     ]
   },
@@ -53,8 +60,7 @@ export const nodes = [
       {
         nodeId: '1',
         name: '客厅',
-        position: { yaw: '-90deg', pitch: '0deg' },
-        arrowStyle: {}
+        position: { yaw: '-90deg', pitch: '0deg' }
       }
     ]
   },
@@ -67,7 +73,9 @@ export const nodes = [
         nodeId: '1',
         name: '客厅',
         position: { yaw: '120deg', pitch: '0deg' },
-        arrowStyle: {}
+        markerStyle: {
+          size: { width: 36, height: 36 }
+        }
       }
     ]
   },
@@ -80,7 +88,9 @@ export const nodes = [
         nodeId: '1',
         name: '客厅',
         position: { yaw: '105deg', pitch: '0deg' },
-        arrowStyle: {}
+        markerStyle: {
+          size: { width: 36, height: 36 }
+        }
       }
     ]
   }
