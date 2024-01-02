@@ -17,7 +17,17 @@ export const initViewer = () => {
     defaultZoomLvl: 0,
     navbar: false,
     plugins: [
-      [VirtualTourPlugin, { positionMode: 'manual', renderMode: 'markers' }],
+      [
+        VirtualTourPlugin,
+        {
+          positionMode: 'manual',
+          renderMode: 'markers',
+          markerStyle: {
+            element: null,
+            html: `<div class='click-animation'></div>`
+          }
+        }
+      ],
       MarkersPlugin,
       [
         AutorotatePlugin,
@@ -42,7 +52,7 @@ export const setNode = (nodeId: string) => {
   const virtualTourPlugin: VirtualTourPlugin = viewer.value!.getPlugin(VirtualTourPlugin); //获取组件
   virtualTourPlugin.setCurrentNode(nodeId);
   selectId.value = nodeId;
-  virtualTourPlugin.addEventListener('node-changed', (e) => {
+  virtualTourPlugin.addEventListener('enter-arrow', (e) => {
     selectId.value = e.node.id;
   });
 };
