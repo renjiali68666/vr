@@ -9,7 +9,16 @@ export const initViewer = () => {
     container: document.querySelector('#viewer') as HTMLElement,
     defaultZoomLvl: 0,
     navbar: false,
-    plugins: [[VirtualTourPlugin, { positionMode: 'manual', renderMode: 'markers' }], MarkersPlugin, AutorotatePlugin]
+    plugins: [
+      [VirtualTourPlugin, { positionMode: 'manual', renderMode: 'markers' }],
+      MarkersPlugin,
+      [
+        AutorotatePlugin,
+        {
+          autorotateSpeed: '1rpm'
+        }
+      ]
+    ]
   });
   setVirtualTourPlugin();
 };
