@@ -1,4 +1,4 @@
-import { Viewer } from '@photo-sphere-viewer/core';
+import { EquirectangularAdapter, Viewer } from '@photo-sphere-viewer/core';
 import { VirtualTourPlugin } from '@photo-sphere-viewer/virtual-tour-plugin';
 import { MarkersPlugin } from '@photo-sphere-viewer/markers-plugin';
 import { AutorotatePlugin } from '@photo-sphere-viewer/autorotate-plugin';
@@ -7,6 +7,13 @@ import { nodes, selectId, viewer } from './const';
 export const initViewer = () => {
   viewer.value = new Viewer({
     container: document.querySelector('#viewer') as HTMLElement,
+    adapter: [
+      EquirectangularAdapter,
+      {
+        interpolateBackground: true,
+        resolution: 512
+      }
+    ],
     defaultZoomLvl: 0,
     navbar: false,
     plugins: [
